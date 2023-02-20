@@ -1,0 +1,15 @@
+C:\Users\drosso\Desktop\ProyectoLibro\bin\Debug\net6.0\ProyectoLibro.exe
+C:\Users\drosso\Desktop\ProyectoLibro\bin\Debug\net6.0\ProyectoLibro.deps.json
+C:\Users\drosso\Desktop\ProyectoLibro\bin\Debug\net6.0\ProyectoLibro.runtimeconfig.json
+C:\Users\drosso\Desktop\ProyectoLibro\bin\Debug\net6.0\ProyectoLibro.dll
+C:\Users\drosso\Desktop\ProyectoLibro\bin\Debug\net6.0\ProyectoLibro.pdb
+C:\Users\drosso\Desktop\ProyectoLibro\obj\Debug\net6.0\ProyectoLibro.csproj.AssemblyReference.cache
+C:\Users\drosso\Desktop\ProyectoLibro\obj\Debug\net6.0\ProyectoLibro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drosso\Desktop\ProyectoLibro\obj\Debug\net6.0\ProyectoLibro.AssemblyInfoInputs.cache
+C:\Users\drosso\Desktop\ProyectoLibro\obj\Debug\net6.0\ProyectoLibro.AssemblyInfo.cs
+C:\Users\drosso\Desktop\ProyectoLibro\obj\Debug\net6.0\ProyectoLibro.csproj.CoreCompileInputs.cache
+C:\Users\drosso\Desktop\ProyectoLibro\obj\Debug\net6.0\ProyectoLibro.dll
+C:\Users\drosso\Desktop\ProyectoLibro\obj\Debug\net6.0\refint\ProyectoLibro.dll
+C:\Users\drosso\Desktop\ProyectoLibro\obj\Debug\net6.0\ProyectoLibro.pdb
+C:\Users\drosso\Desktop\ProyectoLibro\obj\Debug\net6.0\ProyectoLibro.genruntimeconfig.cache
+C:\Users\drosso\Desktop\ProyectoLibro\obj\Debug\net6.0\ref\ProyectoLibro.dll
