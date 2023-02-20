@@ -11,10 +11,11 @@ var inmobiliaria4=new Inmobiliaria(){Mail="inmo4@gmail.com"};
 var inmueble1=new Inmueble(100){Domicilio="Salta 123"};
 var inmueble2=new Inmueble(200){Domicilio="Francia 578"};
 
+inmobiliaria2.Agregar(cliente3);
 inmueble1.Conectar(inmobiliaria1,cliente1);
 inmueble1.Conectar(inmobiliaria1,cliente2);
-inmueble1.CambiarPrecio(300);
-inmobiliaria1.Responder(inmueble1);
+inmueble1.Conectar(inmobiliaria1,inmobiliaria2);
+inmueble1.CambiarPrecio(350); 
 
 public abstract class Interesado{
     public string? Nombre{get;set;}
@@ -64,15 +65,20 @@ public class Inmueble{
 
     public void CambiarPrecio(double nuevoPrecio){
         this.Precio=nuevoPrecio;
-        
+        Interesado.Responder(this);
     }
     public void Conectar(Interesado component1, Interesado component2)
     {
             if (component1 is Inmobiliaria)
             {
+                if(Interesado==null)
+                    Interesado=component1;
+
                 component1.Agregar(component2);
             }
             
             //Console.WriteLine($"RESULT: {component1.Responder()}");
     }
+
+    public Interesado? Interesado {get;set;}
 }
